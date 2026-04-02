@@ -81,8 +81,8 @@ A description **automatically fails** if:
 1. **Clone the repository**
 
    ```bash
-   git clone <repository-url>
-   cd llm-product-description-evaluation
+   git clone https://github.com/IsmaelNjama/llm-evaluation.git
+   cd llm-evaluation
    ```
 
 2. **Create virtual environment**
@@ -92,20 +92,14 @@ A description **automatically fails** if:
    source .venv/bin/activate  # On Windows: .venv\Scripts\activate
    ```
 
-3. **Install dependencies**
-
-   ```bash
-   pip install pandas openpyxl python-dotenv openai
-   ```
-
-4. **Set up environment variables**
+3. **Set up environment variables**
    Create a `.env` file in the project root:
 
    ```
    NEBIUS_API_KEY=your_nebius_api_key_here
    ```
 
-5. **Prepare input data**
+4. **Prepare input data**
    Place your product dataset Excel file as `Assignment_01_product_dataset.xlsx` with columns:
    - `product_name`
    - `Product_attribute_list`
@@ -114,22 +108,15 @@ A description **automatically fails** if:
 
 ## Usage
 
-1. **Run the evaluation notebook**
-
-   ```bash
-   jupyter notebook evaluation.ipynb
-   ```
-
-2. **Execute cells in order**:
+1. **Execute cells in order**:
    - Install dependencies
    - Load and prepare data
    - Generate product descriptions
    - Run LLM judge evaluation
    - Parse and view results
 
-3. **View results**
+2. **View results**
    - Individual evaluation details
-   - Summary table of all evaluations
    - Performance metrics (latency, token usage)
 
 ## Output
