@@ -1,6 +1,6 @@
 # LLM Product Description Evaluation
 
-This project evaluates the quality of AI-generated product descriptions using a comprehensive rubric and automated LLM-as-a-judge evaluation system.
+AI-generated product descriptions using a comprehensive rubric and automated LLM-as-a-judge evaluation system.
 
 ## Overview
 
